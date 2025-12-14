@@ -78,17 +78,16 @@ interface UserSession {
 
 const REGIONS_DATA: Record<string, string[]> = {
   Surxondaryo: [
-    'Termiz sh',
-    'Angor',
-    'Bandixon',
+    'Sariosiyo',
     'Boysun',
     'Denov',
+    'Angor',
+    'Bandixon',
     "Jarqo'rg'on",
     'Muzrabot',
     'Oltinsoy',
     'Qiziriq',
     "Qumqo'rg'on",
-    'Sariosiyo',
     'Sherobod',
     "Sho'rchi",
     'Termiz',
@@ -109,7 +108,7 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Yangihayot',
   ],
   Samarqand: [
-    'Samarqand sh',
+    'Paxtachi',
     "Bulung'ur",
     'Ishtixon',
     'Jomboy',
@@ -117,7 +116,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Narpay',
     'Nurobod',
     'Oqdaryo',
-    'Paxtachi',
     'Payariq',
     "Pastdarg'om",
     "Qo'shrabot",
@@ -126,7 +124,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Urgut',
   ],
   Qashqadaryo: [
-    'Qarshi sh',
     'Chiroqchi',
     'Dehqonobod',
     "G'uzor",
@@ -143,7 +140,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     "Yakkabog'",
   ],
   Navoiy: [
-    'Navoiy sh',
     'Karmana',
     'Konimex',
     'Navbahor',
@@ -172,7 +168,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Zangiota',
   ],
   Xorazm: [
-    'Urganch sh',
     "Bog'ot",
     'Gurlan',
     'Hazorasp',
@@ -186,7 +181,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     "Tuproqqal'a",
   ],
   Buxoro: [
-    'Buxoro sh',
     'Buxoro',
     "G'ijduvon",
     'Jondor',
@@ -200,8 +194,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Vobkent',
   ],
   Fargona: [
-    "Farg'ona sh",
-    "Qo'qon sh",
     'Beshariq',
     "Bog'dod",
     'Buvayda',
@@ -219,7 +211,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Yozyovon',
   ],
   Sirdaryo: [
-    'Guliston sh',
     'Boyovut',
     'Guliston',
     'Mirzaobod',
@@ -231,7 +222,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Yangiyer sh',
   ],
   Jizzax: [
-    'Jizzax sh',
     'Arnasoy',
     'Baxmal',
     "Do'stlik",
@@ -246,7 +236,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     'Zomin',
   ],
   Andijon: [
-    'Andijon sh',
     'Andijon',
     'Asaka',
     'Baliqchi',
@@ -263,7 +252,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     "Xo'jaobod",
   ],
   Namangan: [
-    'Namangan sh',
     'Chortoq',
     'Chust',
     'Kosonsoy',
@@ -277,7 +265,6 @@ const REGIONS_DATA: Record<string, string[]> = {
     "Yangiqo'rg'on",
   ],
   Qoraqalpogiston: [
-    'Nukus sh',
     'Amudaryo',
     'Beruniy',
     'Chimboy',
