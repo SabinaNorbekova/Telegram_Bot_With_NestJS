@@ -4,6 +4,8 @@ import { AppService } from './app.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TelegrafModule } from 'nestjs-telegraf';
 import { BotModule } from './bot/bot.module';
+import { PrismaService } from './prisma.service';
+import { BotService } from './bot/bot.service';
 
 @Module({
   imports: [
@@ -20,6 +22,6 @@ import { BotModule } from './bot/bot.module';
     BotModule,
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, PrismaService, BotService],
 })
 export class AppModule {}
